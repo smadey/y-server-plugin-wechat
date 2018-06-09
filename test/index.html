@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Wechat Test Demo</title>
+</head>
+<body>
+  <script src="../wxUtils.js"></script>
+  <script>
+    window.wxUtils.initServer('http://localhost:8889/githubx').initShare({
+      link: 'https://github.com',
+      title: 'Github',
+      desc: 'GitHub is where people build software. More than 28 million people use GitHub to discover, fork, and contribute to over 85 million projects.',
+      imgUrl: 'https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png',
+    });
+  </script>
+</body>
+</html>

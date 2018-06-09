@@ -1,0 +1,26 @@
+{
+  "name": "y-server-plugin-wechat",
+  "version": "0.0.1",
+  "author": "SmadeyZhang",
+  "license": "MIT",
+  "description": "y-server wechat plugin",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "wxUtils.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yued-fe/y-server-plugin-wechat.git"
+  },
+  "scripts": {
+    "test": "y-server --config ./test/y-server.config.js --hot"
+  },
+  "dependencies": {
+    "colors": "^1.3.0"
+  },
+  "devDependencies": {
+    "y-server": "~0.0.9",
+    "y-server-plugin-cors": "~0.0.1"
+  }
+}
